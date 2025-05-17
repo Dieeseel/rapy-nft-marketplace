@@ -116,7 +116,7 @@ export default defineConfig([
     },
     settings: {
       react: {
-        version: "detect", // автоматически подхватит версию из package.json
+        version: "detect", 
       },
       "import/resolver": {
         typescript: { project: "./tsconfig.json" },
